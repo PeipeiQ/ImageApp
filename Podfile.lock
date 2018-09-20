@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Kingfisher (4.9.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
@@ -21,20 +22,23 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - Kingfisher (~> 4.0)
   - SDWebImage
   - YYCache
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Kingfisher
     - SDWebImage
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 57fa6c35a8941861adbd1b8144ce8debd24029ef
+PODFILE CHECKSUM: 182b3717554b8ce41a2dd17574483943934db30f
 
 COCOAPODS: 1.5.3

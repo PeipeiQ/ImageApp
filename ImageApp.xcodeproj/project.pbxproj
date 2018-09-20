@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53B8A991BDB9F55AED331771 /* Pods_ImageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C3A41BBA218059CE3C9111 /* Pods_ImageApp.framework */; };
+		969B61D02152323B00A14367 /* test.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 969B61CF2152323B00A14367 /* test.JPG */; };
 		96AE2210215145A900A36B87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AE220F215145A900A36B87 /* AppDelegate.swift */; };
 		96AE2212215145A900A36B87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AE2211215145A900A36B87 /* ViewController.swift */; };
 		96AE2215215145A900A36B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AE2213215145A900A36B87 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		969B61CF2152323B00A14367 /* test.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.JPG; sourceTree = "<group>"; };
 		96AE220C215145A800A36B87 /* ImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AE220F215145A900A36B87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96AE2211215145A900A36B87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		969B61CE2152322E00A14367 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				969B61CF2152323B00A14367 /* test.JPG */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 		96AE2203215145A800A36B87 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 		96AE220E215145A800A36B87 /* ImageApp */ = {
 			isa = PBXGroup;
 			children = (
+				969B61CE2152322E00A14367 /* resource */,
 				96AE220F215145A900A36B87 /* AppDelegate.swift */,
 				96AE2211215145A900A36B87 /* ViewController.swift */,
 				96AE2213215145A900A36B87 /* Main.storyboard */,
@@ -261,6 +272,7 @@
 				96AE221A215145AD00A36B87 /* LaunchScreen.storyboard in Resources */,
 				96AE2217215145AD00A36B87 /* Assets.xcassets in Resources */,
 				96AE2215215145A900A36B87 /* Main.storyboard in Resources */,
+				969B61D02152323B00A14367 /* test.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +301,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ImageApp/Pods-ImageApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 			);

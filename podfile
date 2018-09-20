@@ -1,7 +1,8 @@
-platform :ios, '7.0'  
+platform :ios, '9.0'  
 use_frameworks!  
 target 'ImageApp' do  
 pod 'SDWebImage'
 pod 'AFNetworking'
-pod 'YYCache' 
+pod 'YYCache'
+pod 'Kingfisher', '~> 4.0'
 end 
